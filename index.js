@@ -2,8 +2,6 @@ const fs = require('fs');
 const http = require('http');
 const url = require('url');
 
-const slugify = require('slugify');
-
 const replaceTemplate = require('./modules/replace-template');
 
 const temaCSS = fs.readFileSync('./css/tema.css', 'utf-8');
@@ -13,7 +11,7 @@ const overviewCSS = fs.readFileSync('./css/overview.css', 'utf-8');
 
 var tempOverview = fs.readFileSync(`${__dirname}/view/overview.html`, 'utf-8');
 const tempTemasOPC = fs.readFileSync(`${__dirname}/view/temasOPC.html`, 'utf-8'); 
-var tempTema = fs.readFileSync(`${__dirname}/view/tema.html`, 'utf-8'); 
+var tempTema = fs.readFileSync(`${__dirname}/view/tema.html`, 'utf-8');
 
 const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8');
 const dataObject = JSON.parse(data);

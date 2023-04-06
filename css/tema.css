@@ -203,6 +203,7 @@ grid-gap: 1.5rem;
 padding: 5rem 6rem;
 font-size: 1.6rem;
 line-height: 1.8;
+text-align: justify;
 }
 
 .tema__link:link,
