@@ -21,7 +21,7 @@
     "webvideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/n4fXZeuicKY?start=50\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",      
     "description1": "Es responsable de proporcionar una comunicación de extremo a extremo confiable y eficiente entre los procesos de las aplicaciones que se ejecutan en diferentes dispositivos de la red. se divide en dos protocolos principales: TCP (Protocolo de Control de Transmisión) y UDP (Protocolo de Datagramas de Usuario). TCP es un protocolo orientado a la conexión y proporciona un flujo de datos confiable y ordenado, mientras que UDP es un protocolo sin conexión y no proporciona garantías de entrega o ordenamiento de datos.",
     "description2": "También proporciona servicios de multiplexación y demultiplexación, lo que significa que puede enviar y recibir múltiples flujos de datos a través de una única conexión de red. Además, la capa de transporte proporciona servicios de control de flujo y congestión para garantizar que el tráfico de red se gestione de manera eficiente y no se produzcan congestiones en la red.",
-    "description 3": "Por ultimo un video para mejorar la compresión de la capa: "
+    "description3": "Por ultimo un video para mejorar la compresión de la capa de tranporte, sacado del canal de Youtube Mastering IT: "
   }, 
 
 {    
