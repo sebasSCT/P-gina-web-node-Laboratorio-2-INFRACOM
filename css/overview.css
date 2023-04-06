@@ -56,7 +56,7 @@ h1::before {
 }
 
 .card {
-  background: white;
+  background: whitesmoke;
   box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
   margin-bottom: 5rem;
   transform: skewX(-20deg);

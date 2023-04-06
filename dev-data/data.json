@@ -1,14 +1,14 @@
 [
-  {
+  {    
     "id": 0,
-    "tema": "Capa Aplicacion",
+    "nombre": "Capa 4: Aplicacion",
     "image": "💻",
-    "webimage": "<img width=\"320\" height=\"240\" src=\"https://cdn.pixabay.com/photo/2013/01/29/00/47/google-76517_1280.png\"/>",
-    "webimage1": "<img width=\"320\" height=\"240\" src=\"https://cdn.pixabay.com/photo/2013/01/29/00/47/google-76517_1280.png\"/>",
-    "webvideo": "<iframe width=\"560\" height=\"315\" src=\"(INSERTAR LINK)\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",      
-    "description1": "La capa de aplicación es la capa más alta del modelo TCP/IP. Esta capa interactua directamente con el usuario final y las aplicaciones de software en la red. Su funcion principal es proporcionar servicios de red a las aplicaciones de software, lo que permitiendo que los programas de software se comuniquen con otros dispositivos a través de la red.",
-    "description2": "(llenar)"
+    "webimage": "<img width=\"350\" height=\"280\" src=\"http://redespomactividad.weebly.com/uploads/5/4/1/7/54172823/8091749_orig.jpg\"/>",
+    "webimage1": "<img width=\"400\" height=\"210\" src=\"https://geekflare.com/wp-content/uploads/2022/09/How-Does-Node.js-HTTP-Request-Work-GET-request-method.jpeg\"/>",
+    "webvideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6Oa40zyGJug\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",      
+    "description1": "La capa de aplicación es la capa más alta del modelo TCP/IP. Esta capa interactúa directamente con el usuario final y las aplicaciones de software en la red. Su función principal es proporcionar servicios de red a las aplicaciones de software, permitiendo que los programas de software se comuniquen con otros dispositivos a través de la red. En esta capa se definen los protocolos (ejemplo: DNS sistema de nombre de dominio, HTTP protocolo de transferencia de hipertexto, FTP protocolo de transferencia de archivos, SMTP protocolo simple de transporte de correo, XMPP protocolo extensible de mensajeria y presencia) y servicios (ejemplo: aplicaciones web www (HTTP), correo electronico (SMTP), mensajeria (XMPP), transferencia de archivos(FTP) ), que las aplicaciones usan para intercambiar datos a través de la red, incluyendo el formato de los mensajes, mecanismos de autenticación y seguridad, además de la forma en que se establecen, mantienen y finalizan conexiones. Los diferentes protocolos de la capa de aplicación utilizan números de puertos bien conocidos (<1024) por ejemplo: HTTP:80, DNS:53, SMTP:25, FTP:21, el resto son de uso libre. Estas aplicaciones pueden ser de arquitectura: Cliente-Servidor, Peer to Peer y Hibrida. La mas usada y con mas funcionalidad es Cliente-Servidor.",
+    "description2": "A continuación se explicará en términos generales uno de los protocolos de la capa de aplicación más usados alrededor del mundo HTTP (cliente-servidor). Típicamente servidor HTTP es una aplicación que recibe y procesa mensajes de solicitud para generar y enviar mensajes de respuesta al cliente HTTP (comunicación entre los navegadores y servidores web aunque se puede usar para otros propósitos), típicamente utiliza TCP 80. Algunos ejemplos de servidores HTTP son: Apache, Nginx, Node.js. Cuando un navegador envia una solicitud HTTP al servidor que aloja típicamente una página, dicha solicitud incluye información como el método HTTP(Get o Post), la URL de la página solicitada y cualquier información adicional en forma de encabezados y cuerpo de la solicitud. El servidor después de procesar la solicitud devuelve una repuestos HTTP que incluye un código de estado por ejemplo, 200 OK (solicitud exitosa), 404 Not Found (el recurso solicitado no se puede encontrar), 505 HTTP Version Not Supported (indica al cliente que debe actualizar la versión del protocolo HTTP utilizada para hacer la solicitud). Tiene diferentes versiones como HTTP/1.0, HTTP/1.1 Y HTTP/2. Para conocer más acerca de HTTP y estándares, se puede ver los documentos RFC.",
+    "description3": "Para finalizar con la capa de aplicación se presenta un video para ampliar el conocimiento."
   }
-
 ]
   
