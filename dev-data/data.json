@@ -1,14 +1,52 @@
 [
   {    
     "id": 0,
-    "nombre": "Capa 4: Aplicacion",
+    "nombre": "Capa 4: Aplicación",
     "image": "💻",
     "webimage": "<img width=\"350\" height=\"280\" src=\"http://redespomactividad.weebly.com/uploads/5/4/1/7/54172823/8091749_orig.jpg\"/>",
     "webimage1": "<img width=\"400\" height=\"210\" src=\"https://geekflare.com/wp-content/uploads/2022/09/How-Does-Node.js-HTTP-Request-Work-GET-request-method.jpeg\"/>",
     "webvideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6Oa40zyGJug\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",      
-    "description1": "La capa de aplicación es la capa más alta del modelo TCP/IP. Esta capa interactúa directamente con el usuario final y las aplicaciones de software en la red. Su función principal es proporcionar servicios de red a las aplicaciones de software, permitiendo que los programas de software se comuniquen con otros dispositivos a través de la red. En esta capa se definen los protocolos (ejemplo: DNS sistema de nombre de dominio, HTTP protocolo de transferencia de hipertexto, FTP protocolo de transferencia de archivos, SMTP protocolo simple de transporte de correo, XMPP protocolo extensible de mensajeria y presencia) y servicios (ejemplo: aplicaciones web www (HTTP), correo electronico (SMTP), mensajeria (XMPP), transferencia de archivos(FTP) ), que las aplicaciones usan para intercambiar datos a través de la red, incluyendo el formato de los mensajes, mecanismos de autenticación y seguridad, además de la forma en que se establecen, mantienen y finalizan conexiones. Los diferentes protocolos de la capa de aplicación utilizan números de puertos bien conocidos (<1024) por ejemplo: HTTP:80, DNS:53, SMTP:25, FTP:21, el resto son de uso libre. Estas aplicaciones pueden ser de arquitectura: Cliente-Servidor, Peer to Peer y Hibrida. La mas usada y con mas funcionalidad es Cliente-Servidor.",
+    "description1": "La capa de aplicación es la capa más alta del modelo TCP/IP. Esta capa interactúa directamente con el usuario final y las aplicaciones de software en la red. Su función principal es proporcionar servicios de red a las aplicaciones de software, permitiendo que los programas de software se comuniquen con otros dispositivos a través de la red. En esta capa se definen los protocolos (ejemplo: DNS sistema de nombre de dominio, HTTP protocolo de transferencia de hipertexto, FTP protocolo de transferencia de archivos, SMTP protocolo simple de transporte de correo, XMPP protocolo extensible de mensajería y presencia) y servicios (ejemplo: aplicaciones web www (HTTP), correo electrónico (SMTP), mensajería (XMPP), transferencia de archivos(FTP) ), que las aplicaciones usan para intercambiar datos a través de la red, incluyendo el formato de los mensajes, mecanismos de autenticación y seguridad, además de la forma en que se establecen, mantienen y finalizan conexiones. Los diferentes protocolos de la capa de aplicación utilizan números de puertos bien conocidos (<1024) por ejemplo: HTTP:80, DNS:53, SMTP:25, FTP:21, el resto son de uso libre. Estas aplicaciones pueden ser de arquitectura: Cliente-Servidor, Peer to Peer y Hibrida. La mas usada y con mas funcionalidad es Cliente-Servidor.",
     "description2": "A continuación se explicará en términos generales uno de los protocolos de la capa de aplicación más usados alrededor del mundo HTTP (cliente-servidor). Típicamente servidor HTTP es una aplicación que recibe y procesa mensajes de solicitud para generar y enviar mensajes de respuesta al cliente HTTP (comunicación entre los navegadores y servidores web aunque se puede usar para otros propósitos), típicamente utiliza TCP 80. Algunos ejemplos de servidores HTTP son: Apache, Nginx, Node.js. Cuando un navegador envia una solicitud HTTP al servidor que aloja típicamente una página, dicha solicitud incluye información como el método HTTP(Get o Post), la URL de la página solicitada y cualquier información adicional en forma de encabezados y cuerpo de la solicitud. El servidor después de procesar la solicitud devuelve una repuestos HTTP que incluye un código de estado por ejemplo, 200 OK (solicitud exitosa), 404 Not Found (el recurso solicitado no se puede encontrar), 505 HTTP Version Not Supported (indica al cliente que debe actualizar la versión del protocolo HTTP utilizada para hacer la solicitud). Tiene diferentes versiones como HTTP/1.0, HTTP/1.1 Y HTTP/2. Para conocer más acerca de HTTP y estándares, se puede ver los documentos RFC.",
-    "description3": "Para finalizar con la capa de aplicación se presenta un video para ampliar el conocimiento."
+    "description3": "Para finalizar con la capa de aplicación se presenta un video para ampliar el conocimiento del canal Mastering IT."
+  },
+
+
+{
+    "id": 1,
+    "nombre": "Capa 3: Transporte",
+    "image": "📶",
+    "webimage": "<img width=\"560\" height=\"315\" src=\"https://lovtechnology.com/wp-content/uploads/2022/01/TCP-VS-UDP.png\"/>",
+    "webimage1": "<img width=\"560\" height=\"315\" src=\"https://pbs.twimg.com/media/FbuAn1EVUAEy1ZP.jpg:large\"/>",
+    "webvideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/n4fXZeuicKY?start=50\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",      
+    "description1": "Es responsable de proporcionar una comunicación de extremo a extremo confiable y eficiente entre los procesos de las aplicaciones que se ejecutan en diferentes dispositivos de la red. se divide en dos protocolos principales: TCP (Protocolo de Control de Transmisión) y UDP (Protocolo de Datagramas de Usuario). TCP es un protocolo orientado a la conexión y proporciona un flujo de datos confiable y ordenado, mientras que UDP es un protocolo sin conexión y no proporciona garantías de entrega o ordenamiento de datos.",
+    "description2": "También proporciona servicios de multiplexación y demultiplexación, lo que significa que puede enviar y recibir múltiples flujos de datos a través de una única conexión de red. Además, la capa de transporte proporciona servicios de control de flujo y congestión para garantizar que el tráfico de red se gestione de manera eficiente y no se produzcan congestiones en la red.",
+    "description 3": "Por ultimo un video para mejorar la compresión de la capa: "
+  }, 
+
+{    
+    "id": 2,
+    "nombre": "Capa 2: Red",
+    "image": "🌐",
+    "webimage": "<img width=\"350\" height=\"280\" src=\"https://www.redeszone.net/app/uploads-redeszone.net/redes_internet.jpg\"/>",
+    "webimage1": "<img width=\"400\" height=\"210\" src=\"https://www.welivesecurity.com/wp-content/uploads/2015/05/red_informatica.png\"/>",
+    "webvideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CaqKhGVSEJA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",      
+    "description1": "En el modelo TCP/IP, la capa de red se conoce como la capa de Internet. Esta capa es responsable de enrutar y enviar paquetes de datos entre redes distintas, desde el origen hasta el destino. Utiliza el protocolo IP (Protocolo de Internet) para identificar la ruta óptima y proporcionar calidad de servicio. También puede utilizar otros protocolos como ICMP (Protocolo de Mensajes de Control de Internet) para manejar errores y controlar el flujo de datos.",
+    "description2": "Al igual que en el modelo OSI, la capa de Internet también es responsable de la fragmentación y reensamblaje de paquetes de datos para asegurar que lleguen correctamente a su destino. También puede manejar problemas como congestión en la red y errores en la transmisión de datos. En resumen, la capa de Internet es esencial para garantizar una comunicación eficiente y confiable entre dispositivos en diferentes redes utilizando el modelo TCP/IP.",
+    "description3": "Para finalizar con la capa de red se presenta un video para ampliar el conocimiento el cual pertenece al canal Mastering IT                               ."
+  },
+
+{    
+    "id": 3,
+    "nombre": "Capa 1: Enlace de datos",
+    "image": "📡",
+    "webimage": "<img width=\"350\" height=\"280\" src=\"https://www.ecured.cu/images/7/7e/Capa_enlace_de_datos.jpeg\"/>",
+    "webimage1": "<img width=\"560\" height=\"315\" src=\"https://2.bp.blogspot.com/-RKSk0KoAq4c/WQ-z7IQS2nI/AAAAAAAADCc/fq2yxIssnv4FBMVZdgH9PJw4sOm8xnnvgCLcB/s1600/La%2Bcapa%2Bde%2Benlace%2Bde%2Bdatos.jpg\"/>",
+    "webvideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pujW6FOchd8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",      
+    "description1": "La capa de enlace de datos es la primera capa del modelo TCP/IP y se encarga de proporcionar un enlace “confiable” entre el emisor y el receptor. Esta capa es responsable de la transmisión de datos a través de un medio físico, como un cable o una señal inalámbrica. Para lograr una transmisión confiable, la capa de enlace de datos divide los datos en unidades más pequeñas llamados fragmentos. También puede utilizar técnicas como el control de flujo para evitar la sobrecarga del receptor y el control de acceso al medio para evitar colisiones en redes compartidas.",
+    "description2": "La capa de enlace de datos también puede proporcionar servicios como el direccionamiento físico (NIC), que permite identificar dispositivos únicos en una red local. En resumen, la capa de enlace de datos es esencial para garantizar una transmisión confiable y eficiente de datos entre dispositivos directamente conectados utilizando el modelo TCP/IP.",
+    "description3": "Para finalizar con la capa de enlace de datos se presenta un video para ampliar el conocimiento del canal Mastering IT."
   }
+
 ]
   
