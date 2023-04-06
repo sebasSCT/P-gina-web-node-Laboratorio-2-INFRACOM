@@ -8,6 +8,7 @@ module.exports = (temp, tema) =>
     output = output.replace(/{%DESCRIPTION1%}/g, tema.description1);
     output = output.replace(/{%DESCRIPTION2%}/g, tema.description2);
     output = output.replace(/{%DESCRIPTION3%}/g, tema.description3);
+    output = output.replace(/{%ID%}/g, tema.id);
 
     return output;
 
