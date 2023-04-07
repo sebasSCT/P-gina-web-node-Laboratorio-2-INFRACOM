@@ -36,7 +36,7 @@ const server = http.createServer((req, res) =>
     }
 
     //PRODUCT
-    else if(pathname ==='/product')
+    else if(pathname ==='/capa')
     {
         res.writeHead(200, {'Content-type': 'text/html'});
 
